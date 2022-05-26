@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+<style>
+ body{
+     background-color: #b1bcef; 
+     /*background-color:grey;
+     background-size:contain;*/
+     background-image: url("reim.jpg");
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+ }
+
+/* .main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+} */
+h1{
+    text-align: center;
+    color: black;
+}
+.name{
+    width: 90%;
+    padding: 5px;
+    border-radius: 5%;
+    outline: 0;
+    border: 1px solid rgb(0, 0, 0);
+}
+ table{
+    
+color: rgb(0, 0, 0);
+background-color: rgba(252, 0, 0, 0.281);
+border-collapse: collapse;
+opacity: 0.90;
+font-size: 16px;
+font-family: serif;
+padding: 5px;
+margin: auto;
+border: 2px solid rgb(0, 0, 0);
+text-align: -webkit-center;
+width: 45spx;
+
+} 
+
+/*.input{
+    padding:2px;
+    margin:4px;
+    border-radius: 4px;
+    width:75%;
+    line-height: 4px;
+
+}*/
+blink {
+            color: #2d38be;
+            font-size: 15px;
+            font-weight: bold;
+        }
+/* .table{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    transform: translate(0%,-5%);
+    border-radius: 10px;
+    padding: 25px;
+} */
+</style>
+<script>
+    
+</script>
+</head>
+<body>
+    <h1>UNIVERSITY INSTITUDE OF TECNOLOGY<br>Student Registration Form</h1>
+    <table align="center"cellpadding="10">
+        <tr>
+            <td>First Name :</td>
+            <td><input type="text" id="name" name="name" placeholder="enter your First name"></td>
+        </tr>
+        <tr>
+            <td>Last Name :</td>
+            <td><input type="text" id="name" name="name" placeholder="enter your Last name"></td>
+        </tr>
+        <tr>
+            <td>Email :</td>
+            <td><input type="email" id="name" name="email" placeholder="enter your Email"></td>
+        </tr>
+        <tr>
+            <td>Password :</td>
+            <td><input type="password" id="name" name="pass" placeholder="enter your password"></td>
+        </tr>
+        <tr>
+            <td>Re-Enter Password :</td>
+            <td><input type="password" id="name" name="pass" placeholder="Re-Enter your Password"></td>
+        </tr>
+        <tr>
+            <td>Date of Birth :</td>
+            <td><input type="date" id="name" name="DOB" placeholder="enter your password"></td>
+        </tr>
+        <tr>
+            <td>Mobile Number :</td>
+            <td><input type="number" id="name" name="mnum" placeholder="enter your Mobile Number"></td>
+        </tr> 
+        <tr>
+            <td>Genter :</td>
+            <td><input type="radio" name="male">Male
+                <input type="radio" name="Fe-male">Female
+                <input type="radio" name="Other">Other
+            </td>
+            
+        </tr>
+        <tr>
+        <td>Address :</td>
+        <td><textarea rows="65" cols="50" placeholder="Enter your Address"></textarea></td>
+    </tr>
+    <tr>
+        <td>Country :</td>
+        <td><input type="text" id="name" name="Country" placeholder="enter your Country"></td>
+        
+    </tr>
+    <tr>
+        <td>State :</td>
+        <td><input type="text" id="name" name="State" placeholder="enter your State"></td>
+
+    </tr>
+    <tr>
+        <td>City :</td>
+        <td><input type="text" id="name" name="City" placeholder="enter your City"></td>
+        
+    </tr>
+    <tr>
+        <td>Pincode :</td>
+        <td><input type="number" id="name" name="Pincode" placeholder="enter your Pincode"></td>
+    </tr>
+<tr>
+    <td align="center" colspan="2"><input type="submit" value="Submit">&nbsp;&nbsp;<input type="submit" value="Reset">
+        </td>
+</tr>
+    </table>
+</body>
+</html>
